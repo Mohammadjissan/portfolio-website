@@ -36,9 +36,9 @@ const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
 
   setIsSubmitting(true);
-
+// https://portfolio-website-phi-seven-47.vercel.app
   try {
-    const response = await fetch("https://portfolio-website-phi-seven-47.vercel.app/contact", {
+    const response = await fetch("/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
