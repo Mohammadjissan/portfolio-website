@@ -61,8 +61,6 @@ export function Header() {
                 Experience
               </button>
 
-
-
               <button
                 onClick={() => scrollToSection("contact")}
                 className="text-foreground hover:text-primary px-3 py-2 rounded-md transition-colors"
@@ -120,6 +118,12 @@ export function Header() {
               >
                 Projects
               </button>
+                            <button
+                onClick={() => scrollToSection("experience")}
+                className="text-foreground hover:text-primary block px-3 py-2 rounded-md w-full text-left transition-colors"
+              >
+                Experience
+              </button>
               <button
                 onClick={() => scrollToSection("contact")}
                 className="text-foreground hover:text-primary block px-3 py-2 rounded-md w-full text-left transition-colors"
@@ -127,6 +131,10 @@ export function Header() {
                 Contact
               </button>
             </div>
+              <div className="flex items-center">
+  {/* Home About Skills Projects Experience Contact wale links */}
+  <ResumeButton />
+</div> 
           </div>
         )}
       </div>
