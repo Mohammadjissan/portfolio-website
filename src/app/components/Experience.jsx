@@ -1,8 +1,25 @@
 // components/Experience.jsx
-import { Code2, Trophy, Circle } from "lucide-react";
+import { Briefcase, Code2, Trophy, Circle } from "lucide-react";
 
 export default function Experience() {
   const experience = [
+    {
+      icon: Briefcase,
+      role: "Backend Engineering Intern — Digiscrypt Technologies",
+      period: "Feb 2026 – May 2026",
+      summary:
+        "Remote internship focused on developing and optimizing scalable backend services for production web applications.",
+      points: [
+        "Developed and optimized scalable backend services using Node.js, Express.js, and MongoDB",
+        "Built RESTful APIs with validation, authentication (JWT), and structured error handling",
+        "Improved API response time by 25–30% by optimizing MongoDB queries and designing efficient data models",
+        "Integrated backend APIs with React.js frontend for seamless data flow and user experience",
+        "Implemented secure authentication and authorization mechanisms, reducing unauthorized access risks",
+        "Designed modular and maintainable backend architecture for scalability",
+        "Improved data retrieval performance using MongoDB indexing techniques",
+        "Collaborated with cross-functional teams to deliver scalable web applications",
+      ],
+    },
     {
       icon: Code2,
       role: "Full-Stack Developer (Projects)",
