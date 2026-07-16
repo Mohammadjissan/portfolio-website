@@ -23,7 +23,7 @@ export function Projects() {
       image: '/images/mindmate.png',
       technologies: ['Node.js', 'React.js', 'AI/ML', 'Audio Processing'],
       githubUrl: 'https://github.com/Mohammadjissan/MindMate-AI---AI-Powered-Emotion-Stress-Detection.git',
-      liveUrl: 'https://mind-mate-ai-ai-powered-emotion-str.vercel.app/',
+      liveUrl: 'https://theramind-ai.vercel.app/',
       featured: true
     }
   ];
